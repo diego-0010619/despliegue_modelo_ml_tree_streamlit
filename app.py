@@ -71,7 +71,7 @@ data_preparada.head()
 data_preparada=data_preparada.reindex(columns=variables,fill_value=0)
 data_preparada.head()
 
-"""Como yo seleccione un arbol no aplica esta normalización que viene a continuación, si hubiera elegido, red neuronal, knn, msv o regresion entonces si tuviera que normalizar."""
+# """Como yo seleccione un arbol no aplica esta normalización que viene a continuación, si hubiera elegido, red neuronal, knn, msv o regresion entonces si tuviera que normalizar."""
 
 #Se normaliza la edad para predecir con Knn, Red, SVM, Reg
 #En los despliegues no se llama fit
